@@ -1,2 +1,7 @@
 bin/**
 obj/**
+.vs/CommandsService/DesignTimeBuild/.dtbcache.v2
+.vs/CommandsService/v17/.futdcache.v1
+.vs/CommandsService/v17/.suo
+.vscode/launch.json
+.vscode/tasks.json
