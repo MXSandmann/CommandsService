@@ -68,13 +68,10 @@ namespace CommandsService.Data
            
             return commandToDelete.Id;
         }
-     
 
-        
-
-        
-
-        
-
+        public bool ExternalPlatformExists(int externalPlatfromId)
+        {
+            return _context.Platforms.Any(p => p.ExternalId == externalPlatfromId);
+        }
     }
 }
